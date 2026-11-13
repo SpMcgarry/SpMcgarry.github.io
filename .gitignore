@@ -1,0 +1,14 @@
+# Environments & Secrets
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
