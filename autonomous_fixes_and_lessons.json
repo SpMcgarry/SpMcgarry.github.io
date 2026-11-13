@@ -1,0 +1,16 @@
+[
+  {
+    "id": "AUTO_001",
+    "timestamp": "2026-11-13T12:44:20-05:00",
+    "domain": "architecture_decoupling",
+    "title": "Decoupled Jamstack Architecture for Zero-Cost Portfolio Resilience",
+    "blurb": "Decoupled monolithic Flask profile app into a 100% free static GitHub Pages frontend (spmcgarry.github.io) and an on-demand Railway microservice API. Completely eliminates domain renewal liabilities ($0 domain cost) while preserving full-stack AI capabilities via CORS-enabled client-side fetch."
+  },
+  {
+    "id": "AUTO_002",
+    "timestamp": "2026-11-13T12:44:20-05:00",
+    "domain": "security_sanitization",
+    "title": "Safe Teardown & Hijack Prevention for Lapsed Custom Domains",
+    "blurb": "When a custom domain expires or parks, all authorized OAuth origins (Google, LinkedIn) and CORS headers must be scrubbed immediately to prevent token interception. Local links and documentation must be sanitized to reference the canonical GitHub Pages URL."
+  }
+]
