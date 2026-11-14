@@ -147,7 +147,7 @@ nav a:hover, nav a.active {
     color: var(--deep-navy);
     line-height: 1.15;
     letter-spacing: -1px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .hero-subtitle {
@@ -159,10 +159,11 @@ nav a:hover, nav a.active {
 }
 
 .hero-bio {
-    font-size: 1.08rem;
+    font-size: 1.05rem;
     color: var(--navy-light);
     margin-bottom: 2rem;
-    max-width: 650px;
+    max-width: 680px;
+    line-height: 1.75;
 }
 
 .hero-actions {
@@ -183,19 +184,6 @@ nav a:hover, nav a.active {
     object-fit: cover;
     box-shadow: var(--shadow-lg);
     border: 4px solid var(--surface);
-}
-
-.hero-badge {
-    position: absolute;
-    bottom: -10px;
-    right: -10px;
-    background: var(--mustard);
-    color: white;
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 0.4rem 0.8rem;
-    border-radius: 9999px;
-    box-shadow: var(--shadow-md);
 }
 
 /* Buttons */
@@ -266,71 +254,92 @@ nav a:hover, nav a.active {
     box-shadow: var(--shadow-md);
 }
 
-/* Build Story / Challenges & Solutions */
-.story-timeline {
+/* Work Experience Timeline */
+.experience-timeline {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 1.5rem;
 }
 
-.story-card {
+.experience-card {
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    box-shadow: var(--shadow-sm);
+    border-left: 5px solid var(--deep-navy);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.experience-role {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--deep-navy);
+}
+
+.experience-company {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--mustard);
+    margin-bottom: 0.75rem;
+}
+
+.experience-meta {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    background: var(--cream);
+    padding: 0.25rem 0.65rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+.experience-list {
+    margin-left: 1.25rem;
+    color: var(--navy-light);
+}
+
+.experience-list li {
+    margin-bottom: 0.5rem;
+    font-size: 0.98rem;
+}
+
+/* Skills Categories */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.skill-category-card {
     background: var(--surface);
     border-radius: var(--radius);
     border: 1px solid var(--border);
     padding: 1.5rem;
-    border-left: 4px solid var(--mustard);
 }
 
-.story-card.pivot {
-    border-left-color: var(--coral);
-}
-
-.story-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 0.75rem;
-}
-
-.story-title {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: var(--deep-navy);
-}
-
-.story-meta {
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: var(--text-muted);
-}
-
-.line-pair {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0.75rem;
-    align-items: baseline;
-    font-size: 0.95rem;
-    margin-bottom: 0.4rem;
-}
-
-.line-label {
+.skill-category-card h3 {
+    font-size: 1.05rem;
     font-weight: 800;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--deep-navy);
+    margin-bottom: 0.75rem;
+    border-bottom: 2px solid var(--mustard-light);
+    padding-bottom: 0.4rem;
 }
 
-.label-challenge {
-    background: var(--coral-light);
-    color: var(--coral);
-}
-
-.label-solution {
-    background: var(--mustard-light);
-    color: #92400E;
+.skill-category-card p {
+    font-size: 0.92rem;
+    color: var(--navy-light);
+    line-height: 1.6;
 }
 
 /* Projects Section */
