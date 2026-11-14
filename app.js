@@ -85,14 +85,14 @@ function initAdvocateInterface() {
             clearTimeout(timeoutId);
             if (res.ok) {
                 statusDot.classList.remove('offline');
-                statusText.textContent = 'Career Advocate v2 Backend: Online';
+                statusText.textContent = 'Career Advocate: Online';
                 return;
             }
         } catch (e) {
             // Silently fall back to standby mode
         }
         statusDot.classList.add('offline');
-        statusText.textContent = 'Career Advocate Backend: Standby (Rebuilding v2)';
+        statusText.textContent = 'Career Advocate: Standby';
     }
 
     sendButton.addEventListener('click', () => handleUserMessage());
@@ -133,8 +133,8 @@ function initAdvocateInterface() {
             // Friendly graceful fallback
             updateMessage(
                 thinkingId,
-                `The live Career Advocate v2 engine is currently undergoing a clean ground-up scaffold rebuild on Railway. 
-                \n\nIn the meantime, feel free to inspect the detailed **Build Story** and **Project Backlog** below, or connect with Sean directly on **[LinkedIn](https://www.linkedin.com/in/sean-p-mcgarry/)**!`
+                `The live Career Advocate engine is currently in standby mode while undergoing updates. 
+                \n\nIn the meantime, feel free to review Sean's verified **Experience** and **Projects** below, or connect with him directly on **[LinkedIn](https://www.linkedin.com/in/sean-p-mcgarry/)**!`
             );
         }
     }
