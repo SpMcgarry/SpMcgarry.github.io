@@ -12,5 +12,12 @@
     "domain": "security_sanitization",
     "title": "Safe Teardown & Hijack Prevention for Lapsed Custom Domains",
     "blurb": "When a custom domain expires or parks, all authorized OAuth origins (Google, LinkedIn) and CORS headers must be scrubbed immediately to prevent token interception. Local links and documentation must be sanitized to reference the canonical GitHub Pages URL."
+  },
+  {
+    "id": "AUTO_003",
+    "timestamp": "2026-11-13T19:35:00-05:00",
+    "domain": "profile_factuality",
+    "title": "Ground-Truth Alignment with Latest 2026-11 Resume",
+    "blurb": "Removed synthetic build story and location badge. Refactored the public profile and AI knowledge base to strictly reflect Sean's latest verified 2026-11 resume (10+ years consultative sales, Wyebot 120-140% quota, ADI Global 115%+ quota, SNHU CS degree)."
   }
 ]
