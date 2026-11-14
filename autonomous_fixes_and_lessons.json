@@ -19,5 +19,12 @@
     "domain": "profile_factuality",
     "title": "Ground-Truth Alignment with Latest 2026-11 Resume",
     "blurb": "Removed synthetic build story and location badge. Refactored the public profile and AI knowledge base to strictly reflect Sean's latest verified 2026-11 resume (10+ years consultative sales, Wyebot 120-140% quota, ADI Global 115%+ quota, SNHU CS degree)."
+  },
+  {
+    "id": "AUTO_004",
+    "timestamp": "2026-11-13T20:55:00-05:00",
+    "domain": "visitor_facing_privacy",
+    "title": "Focused Profile Isolation",
+    "blurb": "Hid experimental project pages, advocate chat, and affiliate cards from public visitors, ensuring the live GitHub Pages site exclusively displays verified professional career history, competencies, and direct verified contact channels (LinkedIn/GitHub)."
   }
 ]
